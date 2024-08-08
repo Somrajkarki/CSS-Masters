@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player1's Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <img class="hero-bg" src="2.jpg" alt="Background Image">
+            <div class="profile-header">
+                <img class="avatar" src="3.jpg" alt="Player1's avatar">
+                <h1>Player1</h1>
+            </div>
+        </div>
+        
+        <p class="bio">Expert in FPS and Strategy games. Always ready for a challenge!</p>
+
+        <h2>Favorite Games</h2>
+        <div class="games-list">
+            <div class="game-card">
+                <img class="game-image" src="1.jpg" alt="Game1">
+                <h3>Game1</h3>
+                <p>Explore the adventures in Game1 and much more!</p>
+            </div>
+            <div class="game-card">
+                <img class="game-image" src="1.jpg" alt="Game2">
+                <h3>Game2</h3>
+                <p>Explore the adventures in Game2 and much more!</p>
+            </div>
+            <!-- Add more games as needed -->
+        </div>
+
+        <h2>Add New Game</h2>
+        <form action="submit_game.html" method="post">
+            <input type="text" name="new_game" required placeholder="Enter game name...">
+            <button type="submit">Add Game</button>
+        </form>
+
+        <div class="social-links">
+            <h2>Social Links</h2>
+            <a href="https://facebook.com/player1" target="_blank" class="social-button">Facebook</a>
+            <a href="https://twitter.com/player1" target="_blank" class="social-button">Twitter</a>
+            <!-- Add more social links as needed -->
+        </div>
+    </div>
+</body>
+</html>
